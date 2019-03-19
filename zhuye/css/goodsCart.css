@@ -1,0 +1,162 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+
+body{
+	font-family:"微软雅黑";
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	display: block;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 0.15rem;
+    height: 0.45rem;
+}
+.tit{
+    color: #3e3e3e;
+    font-size: 0.17rem;
+}
+.head{
+    display: flex;
+}
+.head a:nth-child(1){
+    color: red;
+    font-size: 0.14rem;
+}
+
+.head a:nth-child(2){
+    color: #333333;
+    font-size: 0.14rem;
+    margin: 0 0.13rem;
+}
+.head img{
+    width: 0.18rem;
+    height: 0.18rem;
+}
+
+/* section */
+.cart-top p{
+    color: #e7983f;
+    font-size: 0.13rem;
+    background: #fef8db;
+    line-height: 0.39rem;
+    padding: 0 0.15rem;
+}
+
+.goods{
+    height: 1.04rem;
+    display: flex;
+    margin: 0 0.15rem;
+    align-items:center;
+    position: relative;
+}
+
+.goodimg{
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #f4f4f4;
+    margin-right: 0.1rem;
+}
+.miaoshu{
+    float: 1;
+}
+.p1 span:nth-child(1){
+    color: #333;
+    font-size: 0.13rem;
+    display: block;
+}
+.p1 span:nth-child(2){
+    color: #828282;
+    font-size: 0.12rem;
+    display: block;
+}
+
+
+.p2{
+    color: #393939;
+    font-size: 0.11rem;
+    margin-top: 0.29rem;
+}
+.good-right{
+    position: absolute;
+
+    right: 0;
+    bottom:0.15rem;
+    /* bottom: 0; */
+    display: flex;
+    border: 1px solid #7f7f7f;
+    align-items: center;
+}
+.good-right span{
+    
+
+    text-align: center;
+    display: block;
+    font-size: 0.1rem;
+    width: 0.29rem;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    /* border: 1px solid #7f7f7f; */
+}
+.good-right span:nth-child(2){
+    border-left: 1px solid #7f7f7f;
+    border-right: 1px solid #7f7f7f;
+}
+
+/* total  */
+.total{
+    display:flex;
+    margin: 0 0.15rem;
+    justify-content: space-between;
+    height: 0.48rem;
+    align-items: center;
+    background: #fafafa;
+}
+.total-left {
+    display:flex;
+    align-items: center;
+}
+.total-left p{
+    font-size:0.13rem;
+    color: #7f7f7f;
+
+}
+
+.total-right{
+    display:flex;
+    align-items: center;
+}
+.jiage p:nth-child(1){
+    font-size: 0.13rem;
+    color: #a63533;
+}
+.jiage p:nth-child(2){
+    font-size: 0.11rem;
+    color: #7f7f7f;
+    
+}
+
+.total-right input{
+    border: none;
+    width: 1.12rem;
+    background: red;
+    height: 0.48rem;
+}

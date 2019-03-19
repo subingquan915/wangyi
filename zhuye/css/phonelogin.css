@@ -1,0 +1,87 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+
+body{
+	font-family:"微软雅黑";
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	display: block;
+}
+/* header */
+
+header{
+    height: 0.42rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 0.17rem;
+    background: #fafafa;
+    border-bottom: 1px solid #d9d9d5;
+}
+
+
+header img{
+    width: 0.09rem;
+    height: 0.17rem;
+}
+header h3{
+    color: #333;
+    font-size: 0.17rem;
+}
+header a{
+    color: #030303;
+    font-size: 0.13rem;
+}
+
+
+
+
+.dl-login img{
+    width: 1.35rem;
+    height: 0.48rem;
+    margin: 0.39rem auto 0.45rem;
+}
+
+/* plogin */
+.plogin{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.2rem;
+}
+.plogin input{
+    height: 0.52rem;
+
+    color: #8e8e8f;
+    font-size: 0.13rem;
+    border: none;
+    border-bottom: 1px solid #d9d9d5;
+    padding-left: 0.11rem;
+}
+.p1{
+    color: #333333;
+    font-size: 0.14rem;
+    line-height: 0.6rem;
+    text-align: right;
+}
+.loginbox{
+    background: red;
+    height: 0.53rem;
+    font-size: 0.13rem;
+    line-height: 0.53rem;
+    text-align:center;
+}
+

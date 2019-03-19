@@ -1,0 +1,312 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+
+body{
+	font-family:"微软雅黑";
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	display: block;
+}
+/* header */
+.header{
+    /* width: 100%; */
+    height: .34rem;
+    /* background:red; */
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 0.09rem;
+    padding-right: 0.13rem;
+}
+.header-left{
+    height: 100%;
+    /* width: 0.3rem; */
+}
+.header-left a{
+    /* display: block; */
+    text-align:center;
+    width: 0.3rem;
+}
+.header-left a img{
+    width:.19rem;
+    height:.19rem;
+}
+.header-left a span{
+    color: #838383;
+    font-size:10px;
+    display: block;
+}
+.header-middle{
+ 
+    height: 100%;
+    width: 2.69rem;
+    background:#ededed;
+    border-radius: 0.04rem;
+}
+.header-middle a{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-middle a img{
+    width:.15rem;
+    height:.15rem;
+}
+.header-middle a span{
+    color: #868686;
+    font-size:.09rem;
+    display:block;
+    line-height: 0.09rem;
+}
+
+.header-right a img{
+    width:.19rem;
+    height:.19rem;
+}
+.header-right a span{
+    color: #838383;
+    font-size:0.09rem;
+    display: block;
+}
+
+/* nav */
+
+.nav{
+    height: 0.35rem;
+    display: flex;
+    overflow: auto;
+    margin-left: 0.12rem;
+}
+.nav a{
+    color: #303030;
+    font-size: 0.14rem;
+    line-height: 0.35rem;
+    margin-right: 0.25rem;
+    flex-shrink: 0;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 1.85rem;
+    display: block;
+}
+/* server */
+.server{
+    display: flex;
+    height: 0.32rem;
+    /* background: red; */
+    align-items: center;
+    margin-left:0.16rem;
+    margin-bottom: 0.09rem;
+}
+.s1{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+.s1 img{
+    width: 0.14rem;
+    height: 0.14rem;
+}
+.s1 span{
+    color:#914551;
+    font-size: 0.09rem;
+    
+}
+
+/* banner */
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner a{
+    width: 20%;
+    text-align: center;
+    margin-bottom: 0.15rem;
+}
+.banner a img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin:0 auto;
+}
+
+.banner a span{
+    color:#373737;
+    font-size: 0.12rem;
+    display: block;
+    line-height: 0.12rem;
+    margin-top: 0.09rem;
+}
+
+/* freshman */
+.freshman{
+    height: 2.02rem;
+    /* background:blue; */
+    padding:0 0.15rem 0.1rem 0.15rem;
+    border-top: 0.1rem solid #f4f4f4;
+    border-bottom: 0.1rem solid #f4f4f4;
+}
+.title{
+    text-align: center;
+    background:yellow;
+}
+.title h4{
+    color:#2f2f2f;
+    font-size: 0.16rem;
+    line-height: 0.5rem;
+}
+.fre-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fre-bottom a {
+    width: 1.12rem;
+    /* flex:1; */
+    text-align: center;
+    background: #fefefe;
+    padding-bottom: 0.1rem;
+}
+.fre-bottom a img{
+    width: 1.12rem;
+    height: 1.12rem;
+    /* margin:0 auto; */
+}
+.fre-bottom a span{
+    width: 1.12rem;
+    color: #3c3c3c;
+    font-size:0.13rem;
+    display: block;
+    line-height: 0.2rem;
+}
+
+/* pinpai */
+.pinpai{
+    margin:0 0.15rem 0.14rem 0.15rem;
+    border-bottom: 0.1rem solid #f4f4f4;
+}
+.more{
+    display: flex;
+    height: 0.49rem;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+}
+.more h3{
+    color: #343434;
+    font-size: 0.15rem;
+    line-height: 0.49rem;
+}
+.more a{
+    display: flex;
+    align-items: center;
+}
+.more a img{
+    width: 0.06rem;
+    height: 0.11rem;
+    margin-left: 0.04rem;
+}
+.more a span{
+    color: #636363;
+    font-size: 0.13rem;
+    line-height: 0.49rem;
+}
+
+.pinpai-bottom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.p1{
+    background:url(../img/pin1.png);
+}
+.p2{
+    background:url(../img/pin2.png);
+}
+.p3{
+    background:url(../img/pin3.png);
+}
+.p4{
+    background:url(../img/pin4.png);
+}
+.pp{
+    width: 1.72rem;
+    height: 1.33rem;
+    text-align: center;   
+    background-size: 1.72rem 1.33rem;
+    margin-bottom: 0.02rem;
+}
+.pp span{
+    display:block;
+}
+    
+.pp span:nth-child(1){
+    color: #353736;
+    font-size: 0.14rem;
+    line-height: 0.14rem;
+    padding-top: 0.16rem;
+    margin-bottom: 0.07rem;
+
+}
+.pp span:nth-child(2){
+    color: #858688;
+    font-size: 0.12rem;
+    line-height: 0.12rem;
+}
+
+/* jingxuan */
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+.footer{
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    border-top: 1px solid #b2b2b2;
+    align-items:center;
+}
+.footer a{
+    flex:1;
+    text-align: center;
+}
+.footer a img{
+    margin:0 auto;
+    width:.2rem;
+    height:.2rem;
+}
+.footer a span{
+    color:#854140;
+    font-size:0.12rem;
+    display: block;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>主页</title>
+<link rel="stylesheet" href="css/zhuye.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+<!-- header -->
+    <div class="header">
+        <div class="header-left">
+            <a href=""><img src="img/h1.png" alt=""><span>扫一扫</span></a> 
+        </div>
+        <div class="header-middle">
+            <a href="">
+                <img src="img/h2.png" alt="">
+                <span>请输入商品详情</span>
+            </a>
+        </div>
+        <div class="header-right">
+            <a href=""><img src="img/h3.png" alt=""><span>消息</span></a>
+        </div>
+    </div>
+    <div class="nav">
+        <a href="">推荐</a>
+        <a href="">新品</a>
+        <a href="">福利社</a>
+        <a href="">限时购</a>
+        <a href="">居家生活</a>
+        <a href="">鞋包服饰</a>
+        <a href="">美食酒水</a>
+    </div>
+
+
+<!-- section -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/img1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img3.jpg" alt="">
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- 如果需要导航按钮 -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+        
+        <!-- 如果需要滚动条 -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+
+    <div class="server">
+        <div class="s1">
+            <img src="img/s1.png" alt="">
+            <span>网易自营品牌</span>
+        </div>
+        <div class="s1">
+            <img src="img/s1.png" alt="">
+            <span>30天无忧退换货</span>
+        </div>
+        <div class="s1">
+            <img src="img/s1.png" alt="">
+            <span>48小时快速退款</span>
+        </div>
+    </div>
+
+    <div class="banner">
+        <a href=""><img src="img/b1.png" alt=""><span>居家生活</span></a>
+        <a href=""><img src="img/b2.png" alt=""><span>服饰鞋包</span></a>
+        <a href=""><img src="img/b3.png" alt=""><span>美食酒水</span></a>
+        <a href=""><img src="img/b4.png" alt=""><span>个人护洁</span></a>
+        <a href=""><img src="img/b1.png" alt=""><span>限时购</span></a>
+        <a href=""><img src="img/b1.png" alt=""><span>母婴亲子</span></a>
+        <a href=""><img src="img/b1.png" alt=""><span>运动旅行</span></a>
+        <a href=""><img src="img/b1.png" alt=""><span>母婴亲子</span></a>
+        <a href=""><img src="img/b1.png" alt=""><span>运动旅行</span></a>
+        <a href=""><img src="img/b1.png" alt=""><span>运动旅行</span></a>
+    </div>
+
+    <div class="freshman">
+        <div class="title">
+            <h4>-新人专享礼-</h4>
+        </div>
+        <div class="fre-bottom">
+            <a href=""><img src="img/fb1.png" alt=""><span>现金礼</span></a>
+            <a href=""><img src="img/fb2.png" alt=""><span>￥13.1</span></a>
+            <a href=""><img src="img/fb3.png" alt=""><span>￥67.4</span></a>
+        </div>
+    </div>
+
+
+
+    <!-- pinpai -->
+    <div class="pinpai">
+        <div class="more">
+            <h3>品牌制造商直供</h3>
+            <a href=""><span>更多</span><img src="img/more.png" alt=""></a>
+        </div>
+        <div class="pinpai-bottom">
+            <div class="pp p1">
+                <span>海外制造商</span>
+                <span>9.9元起</span>
+            </div>
+            <div class="pp p2">
+                <span>海外制造商</span>
+                <span>9.9元起</span>
+            </div>
+            <div class="pp p3">
+                <span>海外制造商</span>
+                <span>9.9元起</span>
+            </div>
+            <div class="pp p4">
+                <span>海外制造商</span>
+                <span>9.9元起</span>
+            </div>
+        </div>
+    </div>
+    <!-- jingxuan -->
+
+    <div class="jingxuan">
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <a href=""><img src="img/f1.png" alt=""><span>首页</span></a>
+        <a href=""><img src="img/f1.png" alt=""><span>分类</span></a>
+        <a href=""><img src="img/f1.png" alt=""><span>识物</span></a>
+        <a href=""><img src="img/f1.png" alt=""><span>购物车</span></a>
+        <a href=""><img src="img/f1.png" alt=""><span>个人</span></a>
+    </div>
+    <script src="js/swiper.min.js"></script>
+    <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+          direction: 'horizontal', // 垂直切换选项
+
+          autoplay: {
+                delay: 2000,
+                stopOnLastSlide: false,
+                disableOnInteraction: false,
+                },
+          loop: true, // 循环模式选项
+          
+          // 如果需要分页器
+          pagination: {
+            el: '.swiper-pagination',
+            clickable :true,
+          },
+          
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          
+          // 如果需要滚动条
+          scrollbar: {
+            el: '.swiper-scrollbar',
+          },
+        })        
+        </script>
+</body>
+</html>

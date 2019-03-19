@@ -1,0 +1,36 @@
+{
+   
+    "headerImg1":"/static/img/h1.png",
+    
+    "bannerImg":[
+        {
+            "img":"static/img/img1.jpg",
+            "url":"##"
+        },
+        {
+            "img":"static/img/img2.jpg",
+            "url":"##"
+        },
+        {
+            "img":"static/img/img3.jpg",
+            "url":"##"
+        }
+    ],
+    "menuListOption": {
+        "slidesPerView": "auto",
+        "spaceBetween": 9,
+        "autoplay": {
+            "disableOnInteraction": false,
+            "delay": 3000
+        },
+        "loop": true,
+        "direction": "horizontal",
+        "pagination": {
+            "el": ".my-pagination",
+            "clickable": true,
+            "bulletClass": "my-bullet",
+            "bulletActiveClass": "my-bullet-active"
+        }
+    }
+    
+}

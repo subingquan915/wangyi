@@ -1,0 +1,14 @@
+{
+    "user":{},
+    "geren":{
+        "touxiang":"/static/myimg/my1.png",
+        "name":"我的名字是谁"
+    },
+    "huodongImg":{
+        "img1":"/static/myimg/my4.png",
+        "img2":"/static/myimg/my5.png"
+    }
+
+    
+  }
+  

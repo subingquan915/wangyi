@@ -1,0 +1,99 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+
+body{
+	font-family:"微软雅黑";
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	display: block;
+}
+/* header */
+.header{
+    display: flex;
+    justify-content: center;
+    height: 0.49rem;
+    align-items: center;
+}
+.header a:nth-child(1){
+    font-size: 0.19rem;
+    color: #a63533;
+    margin-right: 0.16rem;
+}
+.header a:nth-child(2){
+    color: #818181;
+    font-size: 0.13rem;
+}
+
+/* nav */
+.nav{
+    display: flex;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+
+.nav a{
+    text-align: center;
+    flex: 1;
+    font-size: 0.13rem;
+    color: #8a8a8a;
+    line-height: 0.35rem;
+}
+
+/* section */
+.banner{
+    padding:0 0.15rem;
+    /* background: red; */
+    border-top: 0.1rem solid #f4f4f4;
+}
+.banner a{
+    display: flex;
+    height: 0.51rem;
+    align-items: center;
+}
+.banner a img{
+    width: 0.28rem;
+    height: 0.28rem;
+}
+.banner a span{
+    color: #333333;
+    font-size: 0.13rem;
+    line-height: 0.51rem;
+}
+.banner p{
+    color:#333;
+    font-size: 0.17rem;
+    line-height: 0.26rem;
+    margin-bottom: 0.08rem;
+}
+.banner img{
+    width: 3.45rem;
+    height: 1.88rem;
+}
+.banner-bottom{
+    display: flex;
+    align-items: center;
+}
+.banner-bottom img{
+    width: 0.14rem;
+    height: 0.1rem;
+}
+.banner-bottom span{
+    color: #999999;
+    font-size: 0.1rem;
+    line-height: 0.36rem;
+}

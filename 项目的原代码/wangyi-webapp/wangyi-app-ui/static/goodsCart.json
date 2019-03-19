@@ -1,0 +1,58 @@
+{
+    "user":{},
+    "products":[
+        {
+          "title":"网易智造网易智造网易智造网易智",
+          "pic":"/static/cartimg/c2.png",
+          "dec":"茶香粉",
+          "price":25.8,
+          "qal":2,
+          "checked":true
+        },
+
+        {
+            "title":"高硼硅玻璃凉水壶",
+            "pic":"/static/cartimg/c3.png",
+            "dec":"凉水壶",
+            "price":73.00,
+            "qal":1,
+            "checked":true
+          },
+          {
+            "title":"网易智造网易智造网易智造网易智",
+            "pic":"/static/cartimg/c2.png",
+            "dec":"茶香粉",
+            "price":25.8,
+            "qal":1,
+            "checked":true
+          },
+          {
+            "title":"高硼硅玻璃凉水壶",
+            "pic":"/static/cartimg/c3.png",
+            "dec":"凉水壶",
+            "price":73.00,
+            "qal":1,
+            "checked":true
+          },
+          {
+            "title":"网易智造网易智造网易智造网易智",
+            "pic":"/static/cartimg/c2.png",
+            "dec":"茶香粉",
+            "price":25.8,
+            "qal":1,
+            "checked":true
+          },
+          {
+            "title":"网易智造网易智造网易智造网易智",
+            "pic":"/static/cartimg/c2.png",
+            "dec":"茶香粉",
+            "price":25.8,
+            "qal":1,
+            "checked":true
+          }
+      ],
+      "totalPrice": 0,
+      "checked": true
+  
+  }
+  
